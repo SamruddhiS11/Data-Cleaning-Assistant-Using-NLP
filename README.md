@@ -33,3 +33,53 @@ The Intelligent Data Cleaning Assistant provides an intuitive interface for anal
 ### 📁 Export Options
 - Download the cleaned dataset as a CSV file for further analysis or storage
 
+## Project Structure
+
+
+├── Home.py               # Entry point with file upload and navigation
+├── DataCleanerApp.py     # Core interface for cleaning, profiling, and visualization
+├── ChatWithLlama.py      # Chat interface for NLP interaction (runs locally)
+├── cleaning.py           # Data profiling and cleaning logic
+├── llama_chat.py         # Handles local natural language processing
+
+
+## Setup Instructions
+
+### 1. Install Required Libraries
+
+Ensure you have Python 3.7 or higher installed, then run:
+
+
+pip install streamlit pandas numpy scipy matplotlib seaborn requests
+
+
+### 2. Launch the Application
+
+Start the web app using:
+
+
+streamlit run Home.py
+
+
+## Usage Guidelines
+
+* Upload your dataset in CSV format via the Home page.
+* Navigate between the Data Cleaner and Chat Assistant modules using the sidebar.
+* Interactively clean the data and view visualizations in real-time.
+* Download the cleaned CSV file once you're finished.
+
+## Technologies Used
+
+| Component       | Technology Used          |
+| --------------- | ------------------------ |
+| Frontend & UI   | Streamlit                |
+| Data Processing | Pandas, NumPy, SciPy     |
+| Visualization   | Matplotlib, Seaborn      |
+| NLP Interaction | Local Language Model API |
+
+## Contributors
+
+This project was developed as part of an academic exercise to demonstrate the integration of data preprocessing techniques with intelligent, privacy-first NLP interactions.
+Developed by
+- Samruddhi Shinde
+- Anushka Patil
