@@ -33,16 +33,6 @@ The Intelligent Data Cleaning Assistant provides an intuitive interface for anal
 ### 📁 Export Options
 - Download the cleaned dataset as a CSV file for further analysis or storage
 
-## Project Structure
-
-
-├── Home.py               # Entry point with file upload and navigation
-├── DataCleanerApp.py     # Core interface for cleaning, profiling, and visualization
-├── ChatWithLlama.py      # Chat interface for NLP interaction (runs locally)
-├── cleaning.py           # Data profiling and cleaning logic
-├── llama_chat.py         # Handles local natural language processing
-
-
 ## Setup Instructions
 
 ### 1. Install Required Libraries
